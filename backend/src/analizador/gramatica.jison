@@ -232,6 +232,7 @@ expresion
 | TRUE
 | FALSE
 | NULL
+|sentencia_select
 | MENOS expresion %prec UMENOS
 | expresion MAS expresion
 | expresion MENOS expresion
@@ -248,7 +249,6 @@ expresion
 | expresion OR expresion
 | NOT expresion %prec UNOT
 | PARIZQ expresion PARDER
-
 
 
 ;
