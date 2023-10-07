@@ -1,1 +1,2 @@
 proyecto2
+npx jison ./analizador/gramatica.jison -o ./analizador/Parser.js
