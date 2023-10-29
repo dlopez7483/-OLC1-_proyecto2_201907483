@@ -10,7 +10,10 @@ app.use(morgan('dev'));
 app.listen(app.get('port'), () => {
     console.log('Server is up on port 3000');
     });
+app.use(require('./routes/rutas'));
 
+
+module.exports = app;
 
 
 
