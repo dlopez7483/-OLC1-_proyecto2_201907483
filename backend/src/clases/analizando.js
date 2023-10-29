@@ -5,7 +5,6 @@ const clase_ast = require('../ast/clase_ast');
 const fs = require('fs');
 const Viz = require('viz.js');
 const { Module, render } = require('viz.js/full.render');
-const { errores_ } = require('../manejador_errores/errores');
 const errores = require('../manejador_errores/errores');
 
 exports.analisis = async (req, res) => {
@@ -108,7 +107,7 @@ viz.renderString(contenidoDot)
 
 clase_ast.limpar_contador();
 
-errores.errores_=[];
+
 
 
 

@@ -22,7 +22,7 @@ return (
     <div>
         <button onClick={enviar}>Ejecutar</button>
         <br></br>
-        <textarea  name="texto_entrada" onChange={(e) => setTexto(e.target.value)} id="texto_entrada" cols="50" rows="20"></textarea>
+        <textarea value={contenido} name="texto_entrada" onChange={(e) => setTexto(e.target.value)} id="texto_entrada" cols="50" rows="20"></textarea>
         <textarea value={texto_salida} name="texto_salida" id="texto_salida" cols="50" rows="20"></textarea>
     </div>
   
